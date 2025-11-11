@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7418322956600261374}
   - component: {fileID: 4276048791933968203}
   - component: {fileID: 5825694245368801440}
+  - component: {fileID: -367018895884713602}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -54,8 +55,6 @@ MonoBehaviour:
   heartPrefab: {fileID: 4392289567342032941, guid: 2098c44352ec9ed46b42e4aa5b14182b,
     type: 3}
   isSpecial: 0
-  specialColor: {r: 1, g: 0, b: 1, a: 1}
-  glowIntensity: 0.68
 --- !u!65 &4276048791933968203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104,6 +103,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-367018895884713602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232523604973923421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769a838ccad30684ab170388c0b1a985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GlowFlicker
+  glowColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  glowSpeed: 2
+  baseEmission: 0.5
+  glowIntensity: 2
 --- !u!1001 &6333609087465896700
 PrefabInstance:
   m_ObjectHideFlags: 0

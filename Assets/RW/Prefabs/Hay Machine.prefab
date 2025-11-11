@@ -73,6 +73,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2709791935418197139}
   - component: {fileID: 1191126246749527604}
+  - component: {fileID: 484853407774603212}
   m_Layer: 0
   m_Name: Hay Machine
   m_TagString: Untagged
@@ -116,7 +117,30 @@ MonoBehaviour:
   hayBalePrefab: {fileID: 6196248992436565323, guid: 49b41eaa55972dc438ab9f179d13d88f,
     type: 3}
   haySpawnpoint: {fileID: 1855226494}
-  shootInterval: 0.8
+  shootInterval: 0.5
+  modelParent: {fileID: 4397208863869895446}
+  blueModelPrefab: {fileID: 5233456973075758890, guid: 5c5170d876533ae43bc2e4b15c8e6f6e,
+    type: 3}
+  yellowModelPrefab: {fileID: 5917108387044516939, guid: 28d1a170d9eea59478aa66152b57f446,
+    type: 3}
+  redModelPrefab: {fileID: 3278733490917006391, guid: 5162234e78cffba45b0498c4775c0be7,
+    type: 3}
+--- !u!114 &484853407774603212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6020313712292669828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769a838ccad30684ab170388c0b1a985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GlowFlicker
+  glowColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  glowSpeed: 0.5
+  baseEmission: 0.5
+  glowIntensity: 2
 --- !u!1001 &1980520476685283717
 PrefabInstance:
   m_ObjectHideFlags: 0

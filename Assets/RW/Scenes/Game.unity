@@ -275,28 +275,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 55.202003, y: -27.348001, z: 5.7660003}
---- !u!1 &193597790 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6020313712292669828, guid: c91d458c12526534eb19d65378204353,
-    type: 3}
-  m_PrefabInstance: {fileID: 5233456974663517127}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &193597793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193597790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 769a838ccad30684ab170388c0b1a985, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GlowFlicker
-  glowColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  glowSpeed: 0.5
-  baseEmission: 0.5
-  glowIntensity: 2
 --- !u!1 &201699881
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,12 +711,6 @@ MonoBehaviour:
   shootClip: {fileID: 8300000, guid: afd9aad0b8c4b1141856b4808d8ea172, type: 3}
   sheepHitClip: {fileID: 8300000, guid: e97ab3d76ee31794ba31802a0f2a719e, type: 3}
   sheepDroppedClip: {fileID: 8300000, guid: d396aafd153ba394982f2aa1349363de, type: 3}
---- !u!4 &999727620 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4397208863869895446, guid: c91d458c12526534eb19d65378204353,
-    type: 3}
-  m_PrefabInstance: {fileID: 5233456974663517127}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1050572059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1524613847715755804, guid: ff9c52423c3a7be49af987edf422bcff,
@@ -1549,34 +1521,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1191126246749527604, guid: c91d458c12526534eb19d65378204353,
-        type: 3}
-      propertyPath: modelParent
-      value: 
-      objectReference: {fileID: 999727620}
-    - target: {fileID: 1191126246749527604, guid: c91d458c12526534eb19d65378204353,
-        type: 3}
-      propertyPath: shootInterval
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1191126246749527604, guid: c91d458c12526534eb19d65378204353,
-        type: 3}
-      propertyPath: redModelPrefab
-      value: 
-      objectReference: {fileID: 3278733490917006391, guid: 5162234e78cffba45b0498c4775c0be7,
-        type: 3}
-    - target: {fileID: 1191126246749527604, guid: c91d458c12526534eb19d65378204353,
-        type: 3}
-      propertyPath: blueModelPrefab
-      value: 
-      objectReference: {fileID: 5233456973075758890, guid: 5c5170d876533ae43bc2e4b15c8e6f6e,
-        type: 3}
-    - target: {fileID: 1191126246749527604, guid: c91d458c12526534eb19d65378204353,
-        type: 3}
-      propertyPath: yellowModelPrefab
-      value: 
-      objectReference: {fileID: 5917108387044516939, guid: 28d1a170d9eea59478aa66152b57f446,
-        type: 3}
     - target: {fileID: 2709791935418197139, guid: c91d458c12526534eb19d65378204353,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1635,11 +1579,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6020313712292669828, guid: c91d458c12526534eb19d65378204353,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 193597793}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c91d458c12526534eb19d65378204353, type: 3}
 --- !u!4 &5282911218545726514 stripped
 Transform:
